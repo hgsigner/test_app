@@ -1,13 +1,4 @@
-cat .gitignore
-.DS_Store
-*~
-*.swp
-tmp/*
-log/*
-backup/*
-config/database.yml
-Capfile
-config/deploy.rb
+.bundle
 db/*.sqlite3
-mkmf.log
-db/schema.rb
+log/*.log
+tmp/
