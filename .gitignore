@@ -1,4 +1,12 @@
-.bundle
+.DS_Store
+*~
+*.swp
+tmp/*
+log/*
+backup/*
+config/database.yml
+Capfile
+config/deploy.rb
 db/*.sqlite3
-log/*.log
-tmp/
+mkmf.log
+db/schema.rb
