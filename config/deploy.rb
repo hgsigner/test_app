@@ -1,7 +1,7 @@
 require 'bundler/capistrano'
 
 default_run_options[:pty] = false
-ssh_options[:forward_agent] = true
+#ssh_options[:forward_agent] = true
 set :use_sudo, false
 set :user, "aionandrails"
 
